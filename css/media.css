@@ -1,0 +1,83 @@
+@media screen and (min-width:428px) {
+    .container {
+        max-width: 428px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .container {
+        max-width: 768px;
+    }
+
+
+    .sked-li {
+
+        width: calc((100% - 24px) / 2);
+    }
+
+    .sked {
+        padding: 0;
+        gap: 72px 24px;
+    }
+
+    .sectionfour-ourteam-item {
+        column-gap: 24px;
+        row-gap: 64px;
+
+    }
+    .items-list {
+       display: flex;
+       gap:24px;
+       width: calc((100% - 216px) / 3)
+}
+
+@media screen and (min-width:1158px) {
+    .container {
+        max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+
+    .sked-li {
+
+        width: calc((100% - 72px) / 4);
+    }
+
+    .sked-icons {
+        display: flex;
+        padding-top: 71px;
+        flex-direction: column;
+        gap: 24px;
+        padding: 24px 100px
+    }
+
+    .sked-icons-social {
+        width: 64px;
+        height: 64px;
+    }
+
+    .sked-list {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 0.4px;
+        left: 0;
+
+    }
+
+    .sectionfour {
+        padding-top: 120px;
+    }
+
+    .sectionfour-li {
+        width: calc((100% - 72px) / 4);
+
+    }
+
+    .sectionthree {
+        display: flex;
+    }
+
+    
+}
