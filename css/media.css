@@ -25,59 +25,111 @@
         row-gap: 64px;
 
     }
+
     .items-list {
-       display: flex;
-       gap:24px;
-       width: calc((100% - 216px) / 3)
-}
-
-@media screen and (min-width:1158px) {
-    .container {
-        max-width: 1158px;
-        padding-left: 15px;
-        padding-right: 15px;
-
-    }
-
-    .sked-li {
-
-        width: calc((100% - 72px) / 4);
-    }
-
-    .sked-icons {
         display: flex;
-        padding-top: 71px;
-        flex-direction: column;
         gap: 24px;
-        padding: 24px 100px
+        width: calc((100% - 216px) / 3);
+        justify-content: center;
     }
 
-    .sked-icons-social {
-        width: 64px;
-        height: 64px;
-    }
-
-    .sked-list {
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 500;
-        letter-spacing: 0.4px;
-        left: 0;
+    .sectionone {
+        padding: 112px 136px 204px;
 
     }
 
-    .sectionfour {
-        padding-top: 120px;
+    .type {
+        font-size: 56px;
     }
 
-    .sectionfour-li {
-        width: calc((100% - 72px) / 4);
-
+    .sectionone {
+        background: var(--span-color);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bgt.jpg);
     }
 
-    .sectionthree {
-        display: flex;
+    @media(min-device-pixel-radio:2),
+    (min-resolution:192dpi),
+    (min-resolution:2dppx) {
+        .sectionone {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/Dark-bgt2x.jpg);
+        }
     }
 
+    @media screen and (min-width:1158px) {
+        .container {
+            max-width: 1158px;
+            padding-left: 15px;
+            padding-right: 15px;
+
+        }
+
+        .sked-li {
+
+            width: calc((100% - 72px) / 4);
+        }
+
+        .sked-icons {
+            display: flex;
+            padding-top: 71px;
+            flex-direction: column;
+            gap: 24px;
+            padding: 24px 100px
+        }
+
+        .sked-icons-social {
+            width: 64px;
+            height: 64px;
+        }
+
+        .sked-list {
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            letter-spacing: 0.4px;
+            left: 0;
+
+        }
+
+        .sectionfour {
+            padding-top: 120px;
+        }
+
+        .sectionfour-li {
+            width: calc((100% - 72px) / 4);
+        }
+
+        .sectionthree {
+            display: flex;
+        }
+
+        .items-list {
+
+            width: calc((100% - 216px) / 6);
+        }
+
+        .sectionone {
+   
     
-}
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/desk.jpg);
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @media(min-device-pixel-radio:2),
+        (min-resolution:192dpi),
+        (min-resolution:2dppx) {
+            .sectionone {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                        rgba(46, 47, 66, 0.7)),
+                    url(../images/people-office2x.jpg);
+            }
+        }
+    }
