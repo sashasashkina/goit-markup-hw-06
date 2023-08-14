@@ -21,7 +21,7 @@
 </head>
 
 <body>
-     <header class="header">
+    <header class="header">
         <div class="container">
             <nav class="nav">
                 <a class="logo link" href="./index.html">Web<span class="logo-studio">Studio</span></a>
@@ -39,310 +39,317 @@
                     <li><a class="address-item-contact link " href="tel:+110001111111">+11 (000) 111-11-11</a> </li>
                 </ul>
             </address>
-             <button type="button" class="menu-open-btn">
-          <svg class="button-menu-open" width="32" height="32">
-                <use href="./images/icons.svg#icon-charm_menu-hamburger-1"></use>
-            </svg> 
-        </button>
+            <button type="button" class="menu-open-btn" data-menu-open>
+                <svg class="button-menu-open" width="32" height="32">
+                    <use href="./images/icons.svg#icon-menu"></use>
+                </svg>
+            </button>
         </div>
-       
-        <div class="mob-menu">
-            <button type="button" class="menu-close-btn">
-            <svg class="button-menu-open" width="8" height="8">
-                  <use href="./images/icons.svg#icon-close"></use>
-              </svg> 
-          </button>
-          <ul class="mob-menu-list list">
-            <li><a class="mob-menu-item link current" href="./index.html">Studio</a></li>
-            <li><a class="mob-menu-item link " href="./portfolio.html">Portfolio</a></li>
-            <li><a class="mob-menu-item link" href="">Contacts</a></li>
-        </ul>
-        <ul class="mob-menu-address-item list">
-        
-            <li><a class="mob-menu-contact link " href="tel:+110001111111">+11 (000) 111-11-11</a> </li>
-            <li><a class="mob-menu-contact link " href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-        </ul>
-        <ul class="mob-menu-ul">
-            <li class="mob-menu-li">
-                <a class="mob-menu-social link" href="http://www.instagram.com/">
-                    <svg class="mob-menu-social-profession" width="16" height="16">
-                        <use href="./images/icons.svg#icon-instagram-2"></use>
-                    </svg>
-                </a>
-            </li>
-            <li class="mob-menu-li">
-                <a class="mob-menu-social link" href="http://www.twitter.com/">
-                    <svg class="mob-menu-social-profession" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter-1"></use>
-                    </svg>
-                </a>
-            </li>
-            <li class="mob-menu-li">
-                <a class="mob-menu-social link" href="http://www.facebook.com/">
-                    <svg class="mob-menu-social-profession" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook-1"></use>
-                    </svg>
-                </a>
-            </li>
-            <li class="mob-menu-li">
-                <a class="mob-menu-social link" href="http://www.linkedin.com/">
-                    <svg class="mob-menu-social-profession" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin-1"></use>
-                    </svg>
-                </a>
-            </li>
-        </ul>
 
+        <div class="mob-menu is-hidden" data-menu>
+            <button type="button" class="menu-close-btn" data-menu-close>
+                <svg class="button-menu-open" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+            <div class="">
+                <ul class="mob-menu-list list">
+                    <li><a class="mob-menu-item link current" href="./index.html">Studio</a></li>
+                    <li><a class="mob-menu-item link " href="./portfolio.html">Portfolio</a></li>
+                    <li><a class="mob-menu-item link" href="">Contacts</a></li>
+                </ul>
+                <ul class="mob-menu-address-item list">
+
+                    <li><a class="mob-menu-contact link " href="tel:+110001111111">+11 (000) 111-11-11</a> </li>
+                    <li><a class="mob-menu-contact link " href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                </ul>
+            </div>
+            
+                <ul class="mob-menu-ul">
+                    <li class="mob-menu-li">
+                        <a class="mob-menu-social link" href="http://www.instagram.com/">
+                            <svg class="mob-menu-social-profession" width="16" height="16">
+                                <use href="./images/icons.svg#icon-instagram-2"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mob-menu-li">
+                        <a class="mob-menu-social link" href="http://www.twitter.com/">
+                            <svg class="mob-menu-social-profession" width="16" height="16">
+                                <use href="./images/icons.svg#icon-twitter-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mob-menu-li">
+                        <a class="mob-menu-social link" href="http://www.facebook.com/">
+                            <svg class="mob-menu-social-profession" width="16" height="16">
+                                <use href="./images/icons.svg#icon-facebook-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mob-menu-li">
+                        <a class="mob-menu-social link" href="http://www.linkedin.com/">
+                            <svg class="mob-menu-social-profession" width="16" height="16">
+                                <use href="./images/icons.svg#icon-linkedin-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+           
 
         </div>
     </header>
-    <main> 
-    <!-- section1 -->
+    <main>
+        <!-- section1 -->
 
-     <section class="sectionone">
+        <section class="sectionone">
 
             <div class="container">
                 <h1 class="type">Effective Solutions for Your Business</h1>
                 <button class="button" data-modal-open type="button">Order Service</button>
             </div>
 
-        </section> 
+        </section>
 
-    <!-- section2 -->
-    <section class="sectiontwo">
-        <div class="container">
-            <h2 class="visually-hidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
-            <ul class="sked list">
-                <li class="sked-li">
-                    <div class="sked-icons">
-                        <svg class="sked-icons-social" width="64" height="64">
-                            <use href="./images/icons.svg#icon-antenna-1"></use>
-                        </svg>
-                    </div>
-                    <h3 class="sked-list">Strategy</h3>
-                    <p class="sked-paragraf">Our goal is to identify the business
-                        problem to walk away with the perfect and creative solution. </p>
-                </li>
-                <li class="sked-li">
-                    <div class="sked-icons">
-                        <svg class="sked-icons-social" width="64" height="64">
-                            <use href="./images/icons.svg#icon-clock-1"></use>
-                        </svg>
-                    </div>
-                    <h3 class="sked-list">Punctuality</h3>
-                    <p class="sked-paragraf">Bring the key message to the brand's audience for the best price within
-                        the
-                        shortest possible
-                        time.</p>
-                </li>
-                <li class="sked-li">
-                    <div class="sked-icons">
-                        <svg class="sked-icons-social" width="64" height="64">
-                            <use href="./images/icons.svg#icon-diagram-1"></use>
-                        </svg>
-                    </div>
-                    <h3 class="sked-list">Diligence</h3>
-                    <p class="sked-paragraf">Research and confirm brands that present the strongest digital growth
-                        opportunities and minimize
-                        risk.
-                    </p>
-                </li>
-                <li class="sked-li">
-                    <div class="sked-icons">
-                        <svg class="sked-icons-social" width="64" height="64">
-                            <use href="./images/icons.svg#icon-astronaut-1"></use>
-                        </svg>
-                    </div>
-                    <h3 class="sked-list">Technologies</h3>
-                    <p class="sked-paragraf">Design practice focused on digital experiences. We bring forth a deep
-                        passion for
-                        problem-solving.</p>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <!-- section3 -->
-    <section class="sectionthree">
-        <div class="container">
-            <h2 class="sectionthree-maintitle">What are we doing</h2>
-            <ul class="sectionthree-pictures list">
-                <li class="sectionthree-li"> <img 
-                    srcset=""
-                    src="./images/img1.jpg"
-                     alt="Rectangle 71" width="360" /></li>
-                <li class="sectionthree-li"> <img 
-                    srcset=""
-                    src="./images/img2.jpg" alt="Rectangle 71" width="360" /></li>
-                <li class="sectionthree-li"> <img src="./images/img3.jpg" alt="Rectangle 71" width="360" /></li>
-            </ul>
-        </div>
-    </section>
-    <!-- section4 -->
-    <section class="sectionfour">
-        <div class="container"> 
-            <h2 class="sectionfour-ourteam">Our Team</h2>
-            <ul class="sectionfour-ourteam-item list">
-                <li class="sectionfour-li">
-                    <img 
-                    class="sectionfour-profession-images" srcset="" src="./images/img4.jpg" alt="Product Designer"
-                        width="264" />
-                    <div class="sectionfour-personl">
-                        <h3 class="sectionfour-firstname">Mark Guerrero</h3>
-                        <p class="sectionfour-profession">Product Designer</p>
-                        <ul class="profession-ul">
-                            <li class="profession-li">
-                                <a class="social-list link" href="http://www.instagram.com/">
-                                    <svg class="social-profession" width="16" height="16">
-                                        <use href="./images/icons.svg#icon-instagram-2"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="profession-li">
-                                <a class="social-list link" href="http://www.twitter.com/">
-                                    <svg class="social-profession" width="16" height="16">
-                                        <use href="./images/icons.svg#icon-twitter-1"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="profession-li">
-                                <a class="social-list link" href="http://www.facebook.com/">
-                                    <svg class="social-profession" width="16" height="16">
-                                        <use href="./images/icons.svg#icon-facebook-1"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="profession-li">
-                                <a class="social-list link" href="http://www.linkedin.com/">
-                                    <svg class="social-profession" width="16" height="16">
-                                        <use href="./images/icons.svg#icon-linkedin-1"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                        </ul>
+        <!-- section2 -->
+        <section class="sectiontwo">
+            <div class="container">
+                <h2 class="visually-hidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                <ul class="sked list">
+                    <li class="sked-li">
+                        <div class="sked-icons">
+                            <svg class="sked-icons-social" width="64" height="64">
+                                <use href="./images/icons.svg#icon-antenna-1"></use>
+                            </svg>
+                        </div>
+                        <h3 class="sked-list">Strategy</h3>
+                        <p class="sked-paragraf">Our goal is to identify the business
+                            problem to walk away with the perfect and creative solution. </p>
+                    </li>
+                    <li class="sked-li">
+                        <div class="sked-icons">
+                            <svg class="sked-icons-social" width="64" height="64">
+                                <use href="./images/icons.svg#icon-clock-1"></use>
+                            </svg>
+                        </div>
+                        <h3 class="sked-list">Punctuality</h3>
+                        <p class="sked-paragraf">Bring the key message to the brand's audience for the best price within
+                            the
+                            shortest possible
+                            time.</p>
+                    </li>
+                    <li class="sked-li">
+                        <div class="sked-icons">
+                            <svg class="sked-icons-social" width="64" height="64">
+                                <use href="./images/icons.svg#icon-diagram-1"></use>
+                            </svg>
+                        </div>
+                        <h3 class="sked-list">Diligence</h3>
+                        <p class="sked-paragraf">Research and confirm brands that present the strongest digital growth
+                            opportunities and minimize
+                            risk.
+                        </p>
+                    </li>
+                    <li class="sked-li">
+                        <div class="sked-icons">
+                            <svg class="sked-icons-social" width="64" height="64">
+                                <use href="./images/icons.svg#icon-astronaut-1"></use>
+                            </svg>
+                        </div>
+                        <h3 class="sked-list">Technologies</h3>
+                        <p class="sked-paragraf">Design practice focused on digital experiences. We bring forth a deep
+                            passion for
+                            problem-solving.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- section3 -->
+        <section class="sectionthree">
+            <div class="container">
+                <h2 class="sectionthree-maintitle">What are we doing</h2>
+                <ul class="sectionthree-pictures list">
+                    <li class="sectionthree-li"> <img srcset="./images/img1.jpg 1x, ./images/img1 2x.jpg 2x"
+                            src="./images/img1.jpg" alt="Rectangle 71" width="360" /></li>
+                    <li class="sectionthree-li"> <img srcset="./images/img2.jpg 1x, ./images/img3 2x.jpg 2x"
+                            src="./images/img2.jpg" alt="Rectangle 71" width="360" /></li>
+                    <li class="sectionthree-li">
+                        <img srcset="./images/img3.jpg 1x, ./images/Rectangle 2x.jpg 2x" src="./images/img3.jpg"
+                            alt="Rectangle 71" width="360" />
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- section4 -->
+        <section class="sectionfour">
+            <div class="container">
+                <h2 class="sectionfour-ourteam">Our Team</h2>
+                <ul class="sectionfour-ourteam-item list">
+                    <li class="sectionfour-li">
+                        <img srcset="./images/img4.jpg 1x, ./images/img4 2x.jpg 2x"
+                            class="sectionfour-profession-images" srcset="" src="./images/img4.jpg"
+                            alt="Product Designer" width="264" />
+                        <div class="sectionfour-personl">
+                            <h3 class="sectionfour-firstname">Mark Guerrero</h3>
+                            <p class="sectionfour-profession">Product Designer</p>
+                            <ul class="profession-ul">
+                                <li class="profession-li">
+                                    <a class="social-list link" href="http://www.instagram.com/">
+                                        <svg class="social-profession" width="16" height="16">
+                                            <use href="./images/icons.svg#icon-instagram-2"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="profession-li">
+                                    <a class="social-list link" href="http://www.twitter.com/">
+                                        <svg class="social-profession" width="16" height="16">
+                                            <use href="./images/icons.svg#icon-twitter-1"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="profession-li">
+                                    <a class="social-list link" href="http://www.facebook.com/">
+                                        <svg class="social-profession" width="16" height="16">
+                                            <use href="./images/icons.svg#icon-facebook-1"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="profession-li">
+                                    <a class="social-list link" href="http://www.linkedin.com/">
+                                        <svg class="social-profession" width="16" height="16">
+                                            <use href="./images/icons.svg#icon-linkedin-1"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
 
-                    </div>
-                </li>
-                <li class="sectionfour-li">
-                    <img class="sectionfour-profession-images" src="./images/img5.jpg" alt="Frontend Developer"
-                        width="264" />
-                    <div class="sectionfour-personl">
-                        <h3 class="sectionfour-firstname">Tom Ford</h3>
-                        <p class="sectionfour-profession">Frontend Developer</p>
-                        <ul class="profession-ul">
-                            <li class="profession-li">
-                                <a class="social-list link" href="http://www.instagram.com/">
-                                    <svg class="social-profession" width="16" height="16">
-                                        <use href="./images/icons.svg#icon-instagram-2"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="profession-li">
-                                <a class="social-list link" href="http://www.twitter.com/">
-                                    <svg class="social-profession" width="16" height="16">
-                                        <use href="./images/icons.svg#icon-twitter-1"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="profession-li">
-                                <a class="social-list link" href="http://www.facebook.com/">
-                                    <svg class="social-profession" width="16" height="16">
-                                        <use href="./images/icons.svg#icon-facebook-1"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="profession-li">
-                                <a class="social-list link" href="http://www.linkedin.com/">
-                                    <svg class="social-profession" width="16" height="16">
-                                        <use href="./images/icons.svg#icon-linkedin-1"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                        </ul>
+                        </div>
+                    </li>
+                    <li class="sectionfour-li">
+                        <img srcset="./images/img5.jpg 1x, ./images/img7 2x.jpg 2x"
+                            class="sectionfour-profession-images" src="./images/img5.jpg" alt="Frontend Developer"
+                            width="264" />
+                        <div class="sectionfour-personl">
+                            <h3 class="sectionfour-firstname">Tom Ford</h3>
+                            <p class="sectionfour-profession">Frontend Developer</p>
+                            <ul class="profession-ul">
+                                <li class="profession-li">
+                                    <a class="social-list link" href="http://www.instagram.com/">
+                                        <svg class="social-profession" width="16" height="16">
+                                            <use href="./images/icons.svg#icon-instagram-2"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="profession-li">
+                                    <a class="social-list link" href="http://www.twitter.com/">
+                                        <svg class="social-profession" width="16" height="16">
+                                            <use href="./images/icons.svg#icon-twitter-1"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="profession-li">
+                                    <a class="social-list link" href="http://www.facebook.com/">
+                                        <svg class="social-profession" width="16" height="16">
+                                            <use href="./images/icons.svg#icon-facebook-1"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="profession-li">
+                                    <a class="social-list link" href="http://www.linkedin.com/">
+                                        <svg class="social-profession" width="16" height="16">
+                                            <use href="./images/icons.svg#icon-linkedin-1"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
 
-                    </div>
-                </li>
-                <li class="sectionfour-li">
-                    <img class="sectionfour-profession-images" src="./images/img6.jpg" alt="Marketing" width="264" />
-                    <div class="sectionfour-personl">
-                        <h3 class="sectionfour-firstname">Camila Garcia</h3>
-                        <p class="sectionfour-profession">Marketing</p>
-                        <ul class="profession-ul">
-                            <li class="profession-li">
-                                <a class="social-list link" href="http://www.instagram.com/">
-                                    <svg class="social-profession" width="16" height="16">
-                                        <use href="./images/icons.svg#icon-instagram-2"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="profession-li">
-                                <a class="social-list link" href="http://www.twitter.com/">
-                                    <svg class="social-profession" width="16" height="16">
-                                        <use href="./images/icons.svg#icon-twitter-1"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="profession-li">
-                                <a class="social-list link" href="http://www.facebook.com/">
-                                    <svg class="social-profession" width="16" height="16">
-                                        <use href="./images/icons.svg#icon-facebook-1"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="profession-li">
-                                <a class="social-list link" href="http://www.linkedin.com/">
-                                    <svg class="social-profession" width="16" height="16">
-                                        <use href="./images/icons.svg#icon-linkedin-1"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                        </ul>
+                        </div>
+                    </li>
+                    <li class="sectionfour-li">
+                        <img srcset="./images/img6.jpg 1x, ./images/img6 2x.jpg 2x "
+                            class="sectionfour-profession-images" src="./images/img6.jpg" alt="Marketing" width="264" />
+                        <div class="sectionfour-personl">
+                            <h3 class="sectionfour-firstname">Camila Garcia</h3>
+                            <p class="sectionfour-profession">Marketing</p>
+                            <ul class="profession-ul">
+                                <li class="profession-li">
+                                    <a class="social-list link" href="http://www.instagram.com/">
+                                        <svg class="social-profession" width="16" height="16">
+                                            <use href="./images/icons.svg#icon-instagram-2"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="profession-li">
+                                    <a class="social-list link" href="http://www.twitter.com/">
+                                        <svg class="social-profession" width="16" height="16">
+                                            <use href="./images/icons.svg#icon-twitter-1"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="profession-li">
+                                    <a class="social-list link" href="http://www.facebook.com/">
+                                        <svg class="social-profession" width="16" height="16">
+                                            <use href="./images/icons.svg#icon-facebook-1"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="profession-li">
+                                    <a class="social-list link" href="http://www.linkedin.com/">
+                                        <svg class="social-profession" width="16" height="16">
+                                            <use href="./images/icons.svg#icon-linkedin-1"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
 
-                    </div>
-                </li>
-                <li class="sectionfour-li">
-                    <img class="sectionfour-profession-images" src="./images/img7.jpg" alt="UI Designer" width="264" />
-                    <div class="sectionfour-personl">
-                        <h3 class="sectionfour-firstname">Daniel Wilson</h3>
-                        <p class="sectionfour-profession">UI Designer</p>
-                        <ul class="profession-ul">
-                            <li class="profession-li">
-                                <a class="social-list link" href="http://www.instagram.com/">
-                                    <svg class="social-profession" width="16" height="16">
-                                        <use href="./images/icons.svg#icon-instagram-2"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="profession-li">
-                                <a class="social-list link" href="http://www.twitter.com/">
-                                    <svg class="social-profession" width="16" height="16">
-                                        <use href="./images/icons.svg#icon-twitter-1"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="profession-li">
-                                <a class="social-list link" href="http://www.facebook.com/">
-                                    <svg class="social-profession" width="16" height="16">
-                                        <use href="./images/icons.svg#icon-facebook-1"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="profession-li">
-                                <a class="social-list link" href="http://www.linkedin.com/">
-                                    <svg class="social-profession" width="16" height="16">
-                                        <use href="./images/icons.svg#icon-linkedin-1"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                        </ul>
+                        </div>
+                    </li>
+                    <li class="sectionfour-li">
+                        <img srcset="./images/img7.jpg 1x, ./images/img5 2x.jpg 2x"
+                            class="sectionfour-profession-images" src="./images/img7.jpg" alt="UI Designer"
+                            width="264" />
+                        <div class="sectionfour-personl">
+                            <h3 class="sectionfour-firstname">Daniel Wilson</h3>
+                            <p class="sectionfour-profession">UI Designer</p>
+                            <ul class="profession-ul">
+                                <li class="profession-li">
+                                    <a class="social-list link" href="http://www.instagram.com/">
+                                        <svg class="social-profession" width="16" height="16">
+                                            <use href="./images/icons.svg#icon-instagram-2"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="profession-li">
+                                    <a class="social-list link" href="http://www.twitter.com/">
+                                        <svg class="social-profession" width="16" height="16">
+                                            <use href="./images/icons.svg#icon-twitter-1"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="profession-li">
+                                    <a class="social-list link" href="http://www.facebook.com/">
+                                        <svg class="social-profession" width="16" height="16">
+                                            <use href="./images/icons.svg#icon-facebook-1"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="profession-li">
+                                    <a class="social-list link" href="http://www.linkedin.com/">
+                                        <svg class="social-profession" width="16" height="16">
+                                            <use href="./images/icons.svg#icon-linkedin-1"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
 
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <!-- section5 -->
-     <section class="sectionfive">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- section5 -->
+        <section class="sectionfive">
             <div class="container">
                 <h2 class="customers">Customers</h2>
                 <ul class="customers-items">
@@ -391,10 +398,10 @@
                     </li>
                 </ul>
             </div>
-        </section> 
+        </section>
     </main>
 
-     <footer class="footer">
+    <footer class="footer">
         <div class="container">
             <div class="logo-paragraf">
                 <a class="logo link footer-logo" href="./index.html"> Web <span class="span">Studio</span> </a>
@@ -409,6 +416,7 @@
                             <svg class="social-profession" width="24" height="24">
                                 <use href="./images/icons.svg#icon-instagram-2"></use>
                             </svg>
+
                         </a>
                     </li>
                     <li class="icons-media">
@@ -444,9 +452,11 @@
                     </label>
                     <button type="submit" class="form-button">Subscribe
                         <svg class="form-telegram" width="24" height="24">
-                            <use href="./images/icons.svg#icon-close"></use>
+                            <use href="./images/icons.svg#icon-Frame-3-3"></use>
                         </svg>
                     </button>
+
+
                 </form>
 
             </div>
@@ -517,6 +527,7 @@
         </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>
