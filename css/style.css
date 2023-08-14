@@ -39,7 +39,7 @@ img {
 
 .header>.container {
   display: flex;
-  width: 1158px;
+  /* width: 1158px; */
   align-items: center;
 }
 
@@ -221,7 +221,8 @@ body {
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg1m.jpg);
   margin-left: auto;
   margin-right: auto;
-  padding: 112px 54px 240px 54px;
+  padding-top: 112px;
+  padding-bottom: 240px ;
   display: flex;
   justify-content: center;
 }
@@ -248,7 +249,7 @@ body {
   line-height: 1.07;
   color: var(--white-color);
   margin-bottom: 48px;
-  max-width: 496px;
+  max-width: 320px;
   margin-left: auto;
   margin-right: auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -296,8 +297,8 @@ body {
 
 .sectiontwo {
   list-style: none;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .visually-hidden {
@@ -342,14 +343,19 @@ body {
 
 .sked-list {
   margin-bottom: 8px;
-  font-weight: 500;
-  font-size: 20px;
+  font-weight: 700;
+  font-size: 36px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.07  em;
   color: var(--span-color);
   margin-bottom: 8px;
+  text-align: center;
+  text-transform: capitalize;
+   }
 
-}
+
+
+
 
 .sked-li {
   /* width: calc((100% - 72px) / 4); */
@@ -358,10 +364,16 @@ body {
 }
 
 .sked-paragraf {
+  align-self: stretch;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--paragraf-color);
+  font-size: 16px;
+  font-weight: 500;
 }
+
+
+
 
 
 /* section3 */
@@ -406,7 +418,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--span-color);
-  padding-top: 96px;
+  
 
 }
 
@@ -545,16 +557,16 @@ body {
 
 .customers-items {
   display: flex;
-  gap: 24px;
+  gap: 72px 16px;
   flex-wrap: wrap;
-  justify-content: center;
+
 
 }
 
 .items-list {
 
-  width: calc((100% - 120px) / 2);
-  /* height: 88px; */
+  width: calc((100% - 16px) / 2);
+  height: 88px; 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   ;
 }
