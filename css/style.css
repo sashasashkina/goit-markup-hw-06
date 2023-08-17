@@ -223,6 +223,9 @@ display: block;
 margin-left: auto;
 margin-bottom: 32px;
 border-radius: 50%;
+position: absolute;
+top: 24px;
+right: 24px;
 }
 
 .mob-menu-list {
@@ -280,8 +283,7 @@ color: var(--brand-color);
 .mob-menu-ul{
   display: flex;
   gap: 56px;
-  padding-left:40px;
-  /* margin: auto; */ 
+
 }
 .mob-menu-social{
 width: 100%;

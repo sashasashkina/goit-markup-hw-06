@@ -2,9 +2,8 @@
     .container {
         max-width: 428px;
     }
-
-   
 }
+
 @media screen and (max-width: 767px) {
     .footer>.container {   
         justify-content: center;}
@@ -142,7 +141,7 @@
         width: 584px;
 }
 .sectionfive>.container{
-    width: 584px;
+   max-width: 584px;
 
 }
 
@@ -425,6 +424,10 @@
         margin-right: auto;
         padding-bottom: 188px;
         padding-top: 188px;
+    }
+    .sectiontwo{
+        padding-top: 120px; ;
+        padding-bottom: 120px;
     }
 
     .type {
