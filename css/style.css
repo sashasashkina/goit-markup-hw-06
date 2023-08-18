@@ -283,7 +283,8 @@ color: var(--brand-color);
 .mob-menu-ul{
   display: flex;
   gap: 56px;
-
+  padding-left:40px;
+  /* margin: auto; */ 
 }
 .mob-menu-social{
 width: 100%;
@@ -938,7 +939,7 @@ display: flex;
 
 .footer-modal-element {
   height: 40px;
-   width: 264px; 
+  width: 264px; 
   border: 1px solid #ffffff;
   background-color: transparent;
   font-size: 12px;
